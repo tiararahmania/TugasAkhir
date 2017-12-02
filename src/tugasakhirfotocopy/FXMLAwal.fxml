@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="466.0" prefWidth="443.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhirfotocopy.FXMLAwalController">
+   <children>
+      <ImageView fitHeight="466.0" fitWidth="483.0">
+         <image>
+            <Image url="@../gambar/postcard.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="164.0" layoutY="178.0" prefHeight="42.0" prefWidth="212.0" text="   WELCOME TO   ">
+         <font>
+            <Font name="Eras Demi ITC" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="220.0" prefHeight="50.0" prefWidth="340.0" text="   TIARA'S FOTOCOPY   ">
+         <font>
+            <Font name="Eras Demi ITC" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="signupkuy1" layoutX="164.0" layoutY="283.0" mnemonicParsing="false" onAction="#daftarkuy" prefHeight="39.0" prefWidth="131.0" style="-fx-background-color: #a57d42;" text="MASUK" textFill="#fce0e0">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
