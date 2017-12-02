@@ -1,1 +1,6 @@
-![alt text](awal.png)
+![alt text](awal.PNG)
+![alt text](document.PNG)
+![alt text](login.PNG)
+![alt text](print.PNG)
+![alt text](fotocopy.PNG)
+![alt text](nota.PNG)
